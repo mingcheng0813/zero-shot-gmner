@@ -271,8 +271,8 @@ def test_batch_mode():
     ner_results_path = r'result/zero-shot-demo/ner/origin-cot/sota/converted_ner_results.json'
     ner_results = remove_entity_types(ner_results_path)
 
-    images_text = mrc2prompt(r'/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
-                        r'/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data')
+    images_text = mrc2prompt(r'/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
+                        r'/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data')
 
     ##输入的batch请求列表
     batch_request = []
@@ -312,7 +312,7 @@ def test_batch_mode():
 
     # 加载jsonl文件
     # responses = []
-    # with open('/Users/xiaomingcheng/Downloads/论文/gmner/result/span_val/第三次实验/batch_67dfb9b9c57c8190a816712422881961_output.jsonl', 'r', encoding='utf-8') as f:
+    # with open('/Users/xxxxxx/Downloads/论文/gmner/result/span_val/第三次实验/batch_67dfb9b9c57c8190a816712422881961_output.jsonl', 'r', encoding='utf-8') as f:
     #     for line in f:
     #         if line.strip():  # 忽略空行
     #             responses.append(json.loads(line))

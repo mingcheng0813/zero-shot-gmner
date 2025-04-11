@@ -25,7 +25,7 @@ def parse_output_results(file_path):
     return results
 
 def main():
-    file_path = '/Users/xiaomingcheng/Downloads/论文/gmner/result/NER/ner_results.json'
+    file_path = '/Users/xxxxxx/Downloads/论文/gmner/result/NER/ner_results.json'
     results = parse_output_results(file_path)
     
     # 打印结果
@@ -37,7 +37,7 @@ def main():
         print("-" * 50)
     
     # 将结果保存到新文件
-    output_file = '/Users/xiaomingcheng/Downloads/论文/gmner/result/NER/cleaned_outputs.json'
+    output_file = '/Users/xxxxxx/Downloads/论文/gmner/result/NER/cleaned_outputs.json'
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
     

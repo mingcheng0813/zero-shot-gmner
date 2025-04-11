@@ -224,7 +224,7 @@ def calculate_entity_grounding_metrics(pred_file, gold_file, output_dir=None):
 def main():
     # 文件路径
     pred_file = "result/zero-shot-demo/eeg(MNER)/eeg_results.json"
-    gold_file = "/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-bndbox.json"
+    gold_file = "/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-bndbox.json"
     
     # 输出目录
     output_dir = "result/zero-shot-demo/eg_no_vg"

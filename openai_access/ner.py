@@ -226,8 +226,8 @@ def test_batch_mode():
     prompts_file_path = r'prompts/zero-shot-no-demo/NER/NER_system_英文-4.md'
     prompts = load_prompts(prompts_file_path)
 
-    images_text = mrc2prompt(r'/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
-                        r'/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data')
+    images_text = mrc2prompt(r'/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
+                        r'/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data')
 
     ##输入的batch请求列表
     batch_request = []

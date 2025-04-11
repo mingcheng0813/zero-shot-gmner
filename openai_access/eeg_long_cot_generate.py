@@ -18,10 +18,12 @@ class NerProcessor:
             'prompts_file_path': 'prompts/zero-shot-demo/实体类型验证与接地/eeg_英文.md',
             'eeg_input_path': 'result/zero-shot-demo/eeg-demo/eeg_demo_input.json',
             'output_path': 'result/zero-shot-demo/eeg-demo/eeg_demo.json',
-            'picture_folder_path': '/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data',
+            'picture_folder_path': '/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data',
             'model_id': 'deepseek-ai/DeepSeek-R1',  # 使用QwQ模型
             'api_url': 'https://api.siliconflow.cn/v1/chat/completions',
-            'api_key': 'xxxxxxxx',  # 需要替换为实际的API密钥
+            'api_key': 'xxxxxxxx'
+            ''
+            '',  # 需要替换为实际的API密钥
             'temperature': 0.7,
             'max_tokens': 8192
         }   
@@ -80,7 +82,7 @@ class NerProcessor:
             item_info = {
                 "context": text,
                 "image_id": image_id,
-                "url": self.image2prompt('/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data', image_id)
+                "url": self.image2prompt('/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data', image_id)
             }
             
             results.append((item_info))

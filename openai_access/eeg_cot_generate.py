@@ -227,8 +227,8 @@ def test_batch_mode():
     prompts_file_path = r'prompts/zero-shot-demo/实体类型验证与接地/eeg_英文-cot.md'
     prompts = load_prompts(prompts_file_path)
 
-    # images = mrc2prompt('/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
-    #                     '/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data')
+    # images = mrc2prompt('/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
+    #                     '/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data')
     # 解析一二步的输出作为eeg输入
     with open('result/zero-shot-demo/eeg-demo/eeg_demo_origin_input.json', 'r', encoding='utf-8') as f:
         inputs = json.load(f)

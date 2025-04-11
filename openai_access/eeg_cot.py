@@ -229,7 +229,7 @@ def test_batch_mode():
     prompts = load_prompts(prompts_file_path)
 
     images_text_matched_image_id = mrc2prompt('data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-matches.json',
-                        '/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data')
+                        '/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data')
     # 解析一二步的输出作为eeg输入
     with open('result/zero-shot-demo/gpt-4o-mini/eeg(MNER)/eeg-cot/eeg_input.json', 'r', encoding='utf-8') as f:
         inputs = json.load(f)

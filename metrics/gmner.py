@@ -76,7 +76,7 @@ def calculate_entity_counts():
     
     # 计算真实集实体总数
     true_entities_num = 0
-    with open('/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-bndbox.json', 'r', encoding='utf-8') as f:
+    with open('/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-bndbox.json', 'r', encoding='utf-8') as f:
         gold_data = json.load(f)
 
     # 100个样本

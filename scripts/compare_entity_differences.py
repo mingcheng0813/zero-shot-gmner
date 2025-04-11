@@ -146,8 +146,8 @@ def compare_entity_differences(file1_path, file2_path, output_path=None):
     return result
 
 if __name__ == "__main__":
-    file1_path = "/Users/xiaomingcheng/Downloads/论文/gmner/result/eeg/eeg_input.json"
-    file2_path = "/Users/xiaomingcheng/Downloads/论文/gmner/result/eeg/eeg_results.json"
-    output_path = "/Users/xiaomingcheng/Downloads/论文/gmner/result/eeg/entity_differences.json"
+    file1_path = "/Users/xxxxxx/Downloads/论文/gmner/result/eeg/eeg_input.json"
+    file2_path = "/Users/xxxxxx/Downloads/论文/gmner/result/eeg/eeg_results.json"
+    output_path = "/Users/xxxxxx/Downloads/论文/gmner/result/eeg/entity_differences.json"
     
     compare_entity_differences(file1_path, file2_path, output_path)

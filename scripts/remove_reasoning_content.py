@@ -32,6 +32,6 @@ def clean_ner_data_preserve_structure(input_file, output_file):
 # 使用示例
 if __name__ == "__main__":
     input_file = "result/zero-shot-demo/ner-demo/ner_demo_correct.json"
-    output_file = "/Users/xiaomingcheng/Downloads/论文/gmner/result/zero-shot-demo/ner-demo/ner_demo_correct_no_reaning.json"
+    output_file = "/Users/xxxxxx/Downloads/论文/gmner/result/zero-shot-demo/ner-demo/ner_demo_correct_no_reaning.json"
     
     clean_ner_data_preserve_structure(input_file, output_file)

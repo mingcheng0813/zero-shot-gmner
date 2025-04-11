@@ -212,7 +212,7 @@ def evaluate_visual_grounding(gold_file, pred_file, iou_threshold=0.5):
 
 def main():
     # 文件路径
-    gold_file = "/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-bndbox.json"
+    gold_file = "/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-bndbox.json"
     pred_file = "result/zero-shot-no-demo/samples1500/vg/vg_results_final_clean.json"
     
     # 输出目录

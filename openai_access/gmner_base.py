@@ -227,8 +227,8 @@ def test_batch_mode():
     prompts_file_path = r'prompts/zero-shot-base/gmner-no-vg.md'
     prompts = load_prompts(prompts_file_path)
 
-    images = mrc2prompt('/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
-                        '/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data')
+    images = mrc2prompt('/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
+                        '/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data')
 
     ##输入的batch请求列表
     batch_request = []

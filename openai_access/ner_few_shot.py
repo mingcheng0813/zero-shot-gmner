@@ -229,7 +229,7 @@ def test_batch_mode():
 
 
     images_text_matched_image_id = mrc2prompt(r'data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-matches.json',
-                        r'/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data')
+                        r'/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data')
     # 加载一个json文件
     with open(r'result/zero-shot-demo/ner-demo/ner_demo_correct_no_reaning.json', 'r', encoding='utf-8') as f:
         demo = json.load(f)

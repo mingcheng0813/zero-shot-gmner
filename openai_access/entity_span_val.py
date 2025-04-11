@@ -265,14 +265,14 @@ def test_image_identity():
 def test_batch_mode():
 
     # 读取 all_prompts.md
-    prompts_file_path = r'/Users/xiaomingcheng/Downloads/论文/gmner/prompts/实体跨度验证/valition_英文-2.md'
+    prompts_file_path = r'/Users/xxxxxx/Downloads/论文/gmner/prompts/实体跨度验证/valition_英文-2.md'
     prompts = load_prompts(prompts_file_path)
 
-    ner_results_path = r'/Users/xiaomingcheng/Downloads/论文/gmner/result/NER/第五次实验/converted_ner_results.json'
+    ner_results_path = r'/Users/xxxxxx/Downloads/论文/gmner/result/NER/第五次实验/converted_ner_results.json'
     ner_results = remove_entity_types(ner_results_path)
 
-    images_text = mrc2prompt(r'/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
-                        r'/Users/xiaomingcheng/Downloads/论文/gmner/data/IJCAI2019_data')
+    images_text = mrc2prompt(r'/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
+                        r'/Users/xxxxxx/Downloads/论文/gmner/data/IJCAI2019_data')
 
     ##输入的batch请求列表
     batch_request = []
@@ -301,7 +301,7 @@ def test_batch_mode():
         # break # 单个测试
 
     # 写出batch_request为一个json文件
-    with open('/Users/xiaomingcheng/Downloads/论文/gmner/result/span_val/第三次实验/batch_request.json', 'w', encoding='utf-8') as f:
+    with open('/Users/xxxxxx/Downloads/论文/gmner/result/span_val/第三次实验/batch_request.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(batch_request, ensure_ascii=False, indent=4))
         f.flush()
 
@@ -312,7 +312,7 @@ def test_batch_mode():
 
     # 加载jsonl文件
     responses = []
-    with open('/Users/xiaomingcheng/Downloads/论文/gmner/result/span_val/第三次实验/batch_67dfb9b9c57c8190a816712422881961_output.jsonl', 'r', encoding='utf-8') as f:
+    with open('/Users/xxxxxx/Downloads/论文/gmner/result/span_val/第三次实验/batch_67dfb9b9c57c8190a816712422881961_output.jsonl', 'r', encoding='utf-8') as f:
         for line in f:
             if line.strip():  # 忽略空行
                 responses.append(json.loads(line))
@@ -353,7 +353,7 @@ def test_batch_mode():
 
     print(f"共有{erro_count}条数据未能通过```json```格式提取实体")
 
-    with open('/Users/xiaomingcheng/Downloads/论文/gmner/result/span_val/第三次实验/val_results.json', 'w', encoding='utf-8') as f:
+    with open('/Users/xxxxxx/Downloads/论文/gmner/result/span_val/第三次实验/val_results.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(result, ensure_ascii=False, indent=4))
         f.flush()
 

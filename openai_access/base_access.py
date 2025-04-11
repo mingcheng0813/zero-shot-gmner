@@ -205,7 +205,7 @@ class AccessBase(object):
         raise Exception("达到最大重试次数，批处理失败")
     ##调用大模型api
     def _get_client(self):
-        config_file = os.path.join('/Users/xiaomingcheng/Downloads/论文/gmner/openai_access/env.ini')
+        config_file = os.path.join('/Users/xxxxxx/Downloads/论文/gmner/openai_access/env.ini')
         parser = configparser.ConfigParser()
         # 显式指定编码为 utf-8
         with open(config_file, 'r', encoding='utf-8') as file:

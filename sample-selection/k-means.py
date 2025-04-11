@@ -169,7 +169,7 @@ def save_results(df, output_path, samples_per_cluster=None):
 
 def main():
     # 参数设置
-    input_file = "/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-dev-mrc-updated.json"
+    input_file = "/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-dev-mrc-updated.json"
     output_dir = "CoT-sample-selection/cluster"
     model_name = "CoT-sample-selection/cluster/model"
     

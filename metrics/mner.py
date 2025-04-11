@@ -106,7 +106,7 @@ def save_results(tp_list, fp_list, fn_list):
 
 if __name__ == '__main__':
     real_entities, predicted_entities, merged_mrc, results_mrc = extract_entities(
-        '/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
+        '/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json',
         'result/zero-shot-demo/gpt-4o-mini/ner/origin-cot/converted_ner_results.json'
     )
 

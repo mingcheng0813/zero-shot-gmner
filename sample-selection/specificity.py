@@ -1,3 +1,4 @@
+
 import os
 import json
 import numpy as np
@@ -182,9 +183,9 @@ def find_best_matches(test_data, cluster_samples, analyzer):
 def main():
     """主函数"""
     # 配置文件路径
-    test_data_path = "/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json"
+    test_data_path = "/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated.json"
     cluster_samples_path = "CoT-sample-selection/cluster/twitter_clusters_k20_sampled_1perCluster.csv"
-    output_path = "/Users/xiaomingcheng/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-matches.json"
+    output_path = "/Users/xxxxxx/Downloads/论文/gmner/data/Twitter10000_v2.0/mrc/merged-test-mrc-updated-with-matches.json"
     
     # 加载数据
     print("加载测试数据...")
